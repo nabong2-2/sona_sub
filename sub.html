@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>서브페이지 | 아이템 구매창</title>
+    <!-- 글꼴 -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/common.css">
+    <link rel="stylesheet" href="./styles/sub.css">
+    <script src="./script/sub.js" defer></script>
+</head>
+<body>
+    <!-- 헤더 -->
+    <header>
+        <div class="right_h">
+            <h1><a href="#">SONA</a></h1>
+            <ul class="b_left">
+                <li>
+                    <a href="#">신상품<span>♥</span></a>
+                    <!-- new hover -->
+                    <ul class="depth_menu depth1">
+                        <li><a href="#">아우터</a></li>
+                        <li><a href="#">상의</a></li>
+                        <li><a href="#">하의</a></li>
+                        <li><a href="#">원피스</a></li>
+                        <li><a href="#">기타복종</a></li>
+                        <li><a href="#">악세서리</a></li> 
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">베스트</a>
+                    <!-- best hover -->
+                    <ul class="depth_menu depth2">
+                        <li><a href="#">아우터</a></li>
+                        <li><a href="#">상의</a></li>
+                        <li><a href="#">하의</a></li>
+                        <li><a href="#">원피스</a></li>
+                        <li><a href="#">기타복종</a></li>
+                        <li><a href="#">악세서리</a></li> 
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">의류</a>
+                    <!-- clothes hover -->
+                    <ul class="depth_menu depth3">
+                        <li><a href="#">아우터</a></li>
+                        <li><a href="#">상의</a></li>
+                        <li><a href="#">하의</a></li>
+                        <li><a href="#">원피스</a></li>
+                        <li><a href="#">기타복종</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">악세서리</a>
+                    <!-- acc hover -->
+                    <ul class="depth_menu depth4">
+                        <li><a href="#">양말/스타킹</a></li>
+                        <li><a href="#">가방</a></li>
+                        <li><a href="#">신발</a></li>
+                        <li><a href="#">쥬얼리</a></li>
+                        <li><a href="#">모자</a></li>
+                        <li><a href="#">헤어 ACC </a></li> 
+                    </ul>
+                </li>
+                <li><a href="#">오늘출발</a></li>
+                <li>
+                    <a href="#">커뮤니티</a>
+                    <!-- community hover -->
+                    <ul class="depth_menu depth5">
+                        <li><a href="#">이벤트</a></li>
+                        <li><a href="#">멤버십</a></li>
+                        <li><a href="#">오프라인 매장</a></li>
+                        <li><a href="#">기획전</a></li>
+                        <li><a href="#">출석체크</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">고객센터</a>
+                    <!-- client-center hover -->
+                    <ul class="depth_menu depth6">
+                        <li><a href="#">마이페이지</a></li>
+                        <li><a href="#">공지사항</a></li>
+                        <li><a href="#">자주 묻는 질문</a></li>
+                        <li><a href="#">1:1 문의</a></li>
+                        <li><a href="#">아이디/비번찾기</a></li>
+                        <li><a href="#">리뷰</a></li> 
+                        <li><a href="#">비회원 주문조회</a></li> 
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <ul class="b_right">
+            <li>
+                <a href="#">
+                    <img src="./images/person01.png" alt="마이페이지">
+                </a>
+                <span class="join_benifit">
+                    회원가입 +15000원
+                </span>
+            </li>
+            <li><a href="#"><img src="./images/cart01.png" alt="장바구니"></a></li>
+            <li><a href="#"><img src="./images/search01.png" alt="찾기"></a></li>
+        </ul>
+    </header>
+    <!-- 메인 -->
+    <main>
+        <!-- 1. path -->
+        <div class="path">
+            <a href="#">new</a>
+            <img src="./images/arrow_path.png" alt="">
+            <a href="#">상의</a>
+            <img src="./images/arrow_path.png" alt="">
+            <a href="#">민소매티셔츠</a>
+        </div>
+        <!-- 2. 상품 구매 창 -->
+        <div class="container">
+            <div class="contents">
+                <div class="left_contents">
+                    <div class="top_image">
+                        <img src="./images/big3.jpg" alt="큰 이미지">
+                    </div>
+                    <div class="bottom_images">
+                        <div class="b_wrap">
+                            <a href="#"><img src="./images/small1.jpg" alt=""></a>
+                            <a href="#"><img src="./images/small2.jpg" alt=""></a>
+                            <a href="#"><img src="./images/small3.jpg" alt=""></a>
+                            <a href="#"><img src="./images/small4.jpg" alt=""></a>
+                            <a href="#"><img src="./images/small5.jpg" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- 오른쪽 info -->
+                <div class="right_contents">
+                    <div class="top_info">
+                        <!-- 코드부터 쿠폰 -->
+                        <div class="code_coupon">
+                            <div class="c_top">
+                                <div class="code_title">
+                                    <div class="code"><a href="#">sts12498 <img src="./images/code.png" alt="복사"></a></div>
+                                    <div class="title">
+                                        <p>[1+1기획/제작]겨드랑이 보정효과! 레이어드 나시(기본/크롭)</p>
+                                        <span>오늘출발</span><span>best</span><span>new</span>
+                                    </div>
+                                </div>
+                                <div class="price_time">
+                                    <div class="price">
+                                        <span class="origin_p">225,000</span>
+                                        <span class="line">/</span>
+                                        <span class="sale_p">210,000원</span>
+                                        <em>7%</em>
+                                    </div>
+                                    <div class="time">
+                                        <span>할인특가</span>
+                                        <!-- js -->
+                                        <em>00:00:00</em>
+                                        <em>남았습니다</em>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="coupon">
+                                <a href="#">
+                                    <span>앱 쿠폰 최대혜택가 200,000원</span>
+                                    <img src="./images/arrow_b.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="benefit_deliver">
+                            <div class="info_wrap">
+                                <p class="b_title">혜택정보</p>
+                                <ul class="b_info">
+                                    <li>무이자혜택</li>
+                                    <li>결제혜택</li>
+                                    <li>H.Point 적립</li>
+                                    <li>H.Point 통합 회원만 적립 가능</li>
+                                </ul>
+                            </div>
+                            <div class="info_wrap">
+                                <p class="b_title">배송정보</p>
+                                <ul class="b_info">
+                                    <li>무료/ 직접 배송/ 하단 페이지 참고</li>
+                                    <li class="line_contents">부분 오늘 출발 가능</li>
+                                    <li class="d_pink">
+                                        <span class="month">02</span>
+                                        <span>월</span>
+                                        <span class="day">13</span>
+                                        <span>일</span>
+                                        <span class="date">목요일</span>
+                                        <span>도착</span> 
+                                        <span class="grey">- 오후 10시 이전 주문 시</span>
+                                    </li>
+                                </ul>
+                                <!-- 앱솔 -->
+                                <div class="today_deliver">
+                                    <a href="#">오늘 출발 가능 재고 안내</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bottom_input">
+                        <div class="user_select">
+                            <div class="size_box"><a href="#">
+                                <span>사이즈 선택하기</span>
+                                <img src="./images/size_color.png" alt="">
+                            </a></div>
+                            <div class="color_box"><a href="#">
+                                <span>색상 선택하기</span>
+                                <img src="./images/size_color.png" alt="">
+                            </a></div>
+                        </div>
+                        <div class="user_view">
+                            <div class="total_price">
+                                <span>주문금액</span>
+                                <span>0 <em>원</em></span>
+                            </div>
+                            <div class="cart_wrap">
+                                <div class="small_box"><a href="#"><img src="./images/heart.png" alt=""><span class="heart_num">4,177</span></a></div>
+                                <div class="small_box"><a href="#"><img src="./images/present.png" alt=""><span>선물하기</span></a></div>
+                                <div class="cart"><a href="#">장바구니</a></div>
+                                <div class="direct_pay"><a href="#">바로구매</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 3. 리뷰 -->
+        <div class="container_review">
+            <div class="contents">
+                <div class="title_review">
+                    <div class="title">
+                        <span>소녀나라 포토리뷰</span>
+                        <img src="./images/review.png" alt="">
+                    </div>
+                    <p>#포토리뷰를 보며 구매를 결정하세요</p>
+                </div>
+                <ul class="reviews_wrap">
+                    <!-- 1 -->
+                    <li>
+                        <div class="top_info">
+                        <a href="#"><img src="./images/review_image1.jpg" alt=""></a>
+                        <div class="right_star">
+                            <!-- 별 -->
+                            <div class="star">
+                                <span><img src="./images/star.png" alt=""></span>
+                                <span><img src="./images/star.png" alt=""></span>
+                                <span><img src="./images/star.png" alt=""></span>
+                                <span><img src="./images/star.png" alt=""></span>
+                                <span><img src="./images/star.png" alt=""></span>
+                            </div>
+                            <!-- 색상/사이즈/신체사이즈 -->
+                            <p class="color">색상 - <span>똑같아요</span></p>
+                            <p class="size">사이즈 - <span>잘 맞아요</span></p>
+                            <p class="user_wh"><span class="height">162</span>cm / <span class="weight">48</span>kg</p>
+                        </div>
+                        </div>
+                        <div class="bottom_info">
+                            <p class="user_sel">선택옵션 - <span class="user_color">Black(model)</span>/<span class="user_size">S</span></p>
+                            <p class="user_review_contents">
+                                계속 찾던 스타일이었는데 실제도 딱 디자인이 이쁘고 좋았어요 사이즈가 저에겐 좀 커서 아쉽지만 옷이 고급스러워서 만족합니다! 아뜨랑스 옷들이 Xs사이즈도 나오면 좋겠어요
+                            </p>
+                            <p class="user_name">yerrin**</p>
+                        </div>
+                    </li>
+                    <!-- 2 -->
+                    <li>
+                        <div class="top_info">
+                        <a href="#"><img src="./images/review_image1.jpg" alt=""></a>
+                        <div class="right_star">
+                            <!-- 별 -->
+                            <div class="star">
+                                <span><img src="./images/star.png" alt=""></span>
+                                <span><img src="./images/star.png" alt=""></span>
+                                <span><img src="./images/star.png" alt=""></span>
+                                <span><img src="./images/star.png" alt=""></span>
+                                <span><img src="./images/star.png" alt=""></span>
+                            </div>
+                            <!-- 색상/사이즈/신체사이즈 -->
+                            <p class="color">색상 - <span>똑같아요</span></p>
+                            <p class="size">사이즈 - <span>잘 맞아요</span></p>
+                            <p class="user_wh"><span class="height">162</span>cm / <span class="weight">48</span>kg</p>
+                        </div>
+                        </div>
+                        <div class="bottom_info">
+                            <p class="user_sel">선택옵션 - <span class="user_color">Black(model)</span>/<span class="user_size">S</span></p>
+                            <p class="user_review_contents">
+                                계속 찾던 스타일이었는데 실제도 딱 디자인이 이쁘고 좋았어요 사이즈가 저에겐 좀 커서 아쉽지만 옷이 고급스러워서 만족합니다! 아뜨랑스 옷들이 Xs사이즈도 나오면 좋겠어요
+                            </p>
+                            <p class="user_name">yerrin**</p>
+                        </div>
+                    </li>
+                    <!-- 3 -->
+                    <li>
+                        <div class="top_info">
+                        <a href="#"><img src="./images/review_image1.jpg" alt=""></a>
+                        <div class="right_star">
+                            <!-- 별 -->
+                            <div class="star">
+                                <span><img src="./images/star.png" alt=""></span>
+                                <span><img src="./images/star.png" alt=""></span>
+                                <span><img src="./images/star.png" alt=""></span>
+                                <span><img src="./images/star.png" alt=""></span>
+                                <span><img src="./images/star.png" alt=""></span>
+                            </div>
+                            <!-- 색상/사이즈/신체사이즈 -->
+                            <p class="color">색상 - <span>똑같아요</span></p>
+                            <p class="size">사이즈 - <span>잘 맞아요</span></p>
+                            <p class="user_wh"><span class="height">162</span>cm / <span class="weight">48</span>kg</p>
+                        </div>
+                        </div>
+                        <div class="bottom_info">
+                            <p class="user_sel">선택옵션 - <span class="user_color">Black(model)</span>/<span class="user_size">S</span></p>
+                            <p class="user_review_contents">
+                                계속 찾던 스타일이었는데 실제도 딱 디자인이 이쁘고 좋았어요 사이즈가 저에겐 좀 커서 아쉽지만 옷이 고급스러워서 만족합니다! 아뜨랑스 옷들이 Xs사이즈도 나오면 좋겠어요
+                            </p>
+                            <p class="user_name">yerrin**</p>
+                        </div>
+                    </li>
+                    <!-- 4 -->
+                    <li>
+                        <div class="top_info">
+                        <a href="#"><img src="./images/review_image1.jpg" alt=""></a>
+                        <div class="right_star">
+                            <!-- 별 -->
+                            <div class="star">
+                                <span><img src="./images/star.png" alt=""></span>
+                                <span><img src="./images/star.png" alt=""></span>
+                                <span><img src="./images/star.png" alt=""></span>
+                                <span><img src="./images/star.png" alt=""></span>
+                                <span><img src="./images/star.png" alt=""></span>
+                            </div>
+                            <!-- 색상/사이즈/신체사이즈 -->
+                            <p class="color">색상 - <span>똑같아요</span></p>
+                            <p class="size">사이즈 - <span>잘 맞아요</span></p>
+                            <p class="user_wh"><span class="height">162</span>cm / <span class="weight">48</span>kg</p>
+                        </div>
+                        </div>
+                        <div class="bottom_info">
+                            <p class="user_sel">선택옵션 - <span class="user_color">Black(model)</span>/<span class="user_size">S</span></p>
+                            <p class="user_review_contents">
+                                계속 찾던 스타일이었는데 실제도 딱 디자인이 이쁘고 좋았어요 사이즈가 저에겐 좀 커서 아쉽지만 옷이 고급스러워서 만족합니다! 아뜨랑스 옷들이 Xs사이즈도 나오면 좋겠어요
+                            </p>
+                            <p class="user_name">yerrin**</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- 4. 상품 정보 이미지 -->
+        <div class="container_images">
+            <div class="contents">
+                <ul class="menu">
+                    <li><a href="#">상품정보</a></li>
+                    <li><a href="#">디테일</a></li>
+                    <li><a href="#">관심상품</a></li>
+                    <li><a href="#">리뷰</a></li>
+                    <li><a href="#">상품문의</a></li>
+                </ul>
+                <div class="images_warp">
+                    <img src="./images/item_info1.jpg" alt="11만장 돌파">
+                    <img src="./images/1+1.jpg" alt="원 플러스 원">
+                    <img src="./images/item_info2.gif" alt="재질 확인 움짤">
+                    <img src="./images/item_info3.jpg" alt="상품 자세한 정보">
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

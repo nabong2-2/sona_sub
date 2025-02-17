@@ -1,0 +1,138 @@
+/* 색 - 공통으로 */
+main .container .contents .items_wrap .swiper-wrapper .item_info .info_details .color {
+    display: flex; flex-flow: row nowrap; justify-content: flex-start; 
+}
+main .container .contents .items_wrap .swiper-wrapper .item_info .info_details .color span {
+    width: 10px; height: 10px; border-radius: 50%;
+    display: block; margin-left: 3px;
+    
+}
+main .container .contents .items_wrap .swiper-wrapper .item_info .info_details .color span:first-child {margin-left: 0;}
+/* 색모음 - S */
+main .container .contents .items_wrap .swiper-wrapper .item_info .info_details .color .beige {
+    background-color: rgb(255, 255, 228);
+}
+main .container .contents .items_wrap .swiper-wrapper .item_info .info_details .color .blue {
+    background-color: rgb(151, 183, 231);
+}
+main .container .contents .items_wrap .swiper-wrapper .item_info .info_details .color .grey {
+    background-color: rgb(165, 165, 165);
+}
+main .container .contents .items_wrap .swiper-wrapper .item_info .info_details .color .black {
+    background-color: rgb(0, 0, 0);
+}
+main .container .contents .items_wrap .swiper-wrapper .item_info .info_details .color .mellange {
+    background-color: rgb(206, 206, 206);
+}
+main .container .contents .items_wrap .swiper-wrapper .item_info .info_details .color .pink {
+    background-color: rgb(255, 134, 194);
+}
+main .container .contents .items_wrap .swiper-wrapper .item_info .info_details .color .white {
+    background-color: rgb(255, 255, 255);
+}
+main .container .contents .items_wrap .swiper-wrapper .item_info .info_details .color .violet {
+    background-color: rgb(200, 151, 214);
+}
+main .container .contents .items_wrap .swiper-wrapper .item_info .info_details .color .red {
+    background-color: rgb(255, 0, 0);
+}
+main .container .contents .items_wrap .swiper-wrapper .item_info .info_details .color .brown {
+    background-color: rgb(112, 29, 29)
+}
+
+/* ============================================= 헤더 */
+
+header {
+    display: flex; flex-flow: row nowrap; justify-content: space-between;
+    position: fixed; top: 0; 
+    left: 50%; transform: translateX(-50%); 
+    z-index: 999; height: 90px; max-width: 1600px; 
+    margin: 0 auto;
+    padding-top: 27px; 
+    transition: height 0.5s linear, padding-top 0.5s linear;
+    width: 100%;
+}
+/*header- js */
+.header_small {
+    height: 70px;
+    padding: 0 60px;
+    padding-top: 0;
+    background: rgba(255,255,255,0.8);
+    width: 100%;
+}
+header .right_h {
+    align-items: center;
+    display: flex; flex-flow: row nowrap; justify-content: space-between;
+}
+header .right_h h1 { margin-right: 100px;}
+header .right_h h1 a {font-size: 2.81rem; letter-spacing: -0.02rem; font-weight: 700; color: #FF7D9E;}
+header .right_h .b_left {display: flex; flex-flow: row nowrap; justify-content: space-between;}
+header .right_h .b_left > li {padding: 0 15px; position: relative;}
+header .right_h .b_left > li:last-child {margin-right: 0;}
+header .right_h .b_left > li > a {
+    letter-spacing: -0.02rem; font-weight: 500; 
+    line-height: 2.0rem;
+    display: block;
+}
+header .right_h .b_left li > a span {color: #FF7D9E;}
+/* hover 공통 */
+header .right_h .b_left li .depth_menu {
+    display: none;
+    padding: 7px 0 7px 15px;
+    position: absolute; top: 33px; left: -5px;
+    width: 88px;
+    
+}
+header .right_h .b_left li .depth_menu li {
+    margin-bottom: 13px;
+}
+header .right_h .b_left li .depth_menu li:last-child {margin-bottom: 0;}
+header .right_h .b_left li .depth_menu li a {
+    font-size: 0.88rem; letter-spacing: -0.02rem;
+}
+/* hover 개별 */
+header .right_h .b_left li .depth3 {}
+header .right_h .b_left li .depth5 {width: 100px;}
+header .right_h .b_left li .depth6 {width: 110px;}
+/* 오른쪽 */
+header .b_right {display: flex; flex-flow: row nowrap;justify-content: space-between; align-items: center;
+    position: relative;
+}
+header .b_right li {margin-right: 15px;}
+header .b_right li:last-child {margin-right: 0;}
+header .b_right li:last-child a {}
+header .b_right li a {
+    font-size: 0.88rem; letter-spacing: -0.02rem; font-weight: 500;
+}
+header .b_right li a img {}
+/*  */
+header .b_right li:first-child {}
+header .b_right li:first-child .join_benifit {
+    position: absolute;
+    z-index: 9;
+    left: -32px;
+    bottom: -9px;
+    text-align: center;
+    background: #333;
+    color: #fff;
+    font-size: 12px;
+    width: 100px;
+    height: 23px;
+    line-height: 23px;
+    margin-top: 7px;
+    border-radius: 20px;
+    letter-spacing: -0.05em;
+}
+header .b_right li:first-child .join_benifit::before {
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: url(/images/jointTIt3.jpg) no-repeat;
+    background-size: 7px 5px;
+    width: 7px;
+    height: 5px;
+}
+
+/* ㅁ */
